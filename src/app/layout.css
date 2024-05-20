@@ -1,0 +1,14 @@
+
+.bg-image {
+    flex: 0 0 50%; 
+    max-width: 50%;
+}
+
+.flex-align {
+    flex: 0 0 50%; 
+}
+
+.bg-onboarding {
+    background: url('/side-bg.svg') no-repeat center;
+    background-size: cover;
+  }
