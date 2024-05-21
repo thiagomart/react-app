@@ -8,7 +8,7 @@ type Props = {
 export function Footer({terms}: Props): JSX.Element {
     return (
         <div>
-            <div className="flex items-center pt-[60px]">
+            <div className="md:flex items-center md:pt-[60px] sm:w-full">
                 <div>
                     <button 
                         className="border-0 w-[70px] text-[9px] flex items-center justify-center bg-light-yellow font-normal rounded-full px-4 py-3.5 text-dark-grey disabled:opacity-55 " 

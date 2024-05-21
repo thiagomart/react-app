@@ -4,6 +4,7 @@ import { useForm } from 'react-hook-form';
 import * as yup from 'yup';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { Footer } from '../Footer';
+import Image from 'next/image';
 
 type Props = {
 	terms: boolean,
@@ -37,7 +38,7 @@ export default function Form({terms, setTerms}: Props) : JSX.Element{
 	return (
 	<div>
 		<form onSubmit={handleSubmit(onSubmit)}>
-			<div className="mt-7 w-1/2 pt-[59.5px]">
+			<div className="mt-7 md:w-1/2 md:pt-[59.5px]">
 				 <div className="mb-6">
 					<div className="bg-white-smoke md:bg-white absolute ml-4 -mt-3 px-1.5">
 						<label htmlFor='Full Name' 
@@ -150,6 +151,13 @@ export default function Form({terms, setTerms}: Props) : JSX.Element{
 					<label> Tick this box to confirm you've read and agreed to our Terms and Privacy Policy.</label>
 				</div>
 			</div>
+			<Image
+				className="mt-[23px] md:hidden block w-full"
+				src="/signature-mobile.svg"
+				width={325}
+				height={32}
+				alt="logo"
+			/>
 			<Footer terms={terms}/>
 		</form>
 	</div>
