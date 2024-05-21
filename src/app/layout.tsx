@@ -1,7 +1,8 @@
+import React from 'react';
 import type { Metadata } from "next";
 
 import "./globals.css";
-import "./layout.css";
+import "./shared.css";
 
 
 export const metadata: Metadata = {
