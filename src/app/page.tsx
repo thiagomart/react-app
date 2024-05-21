@@ -2,7 +2,8 @@
 import React, { useState } from 'react';
 import Image from "next/image";
 import Form from './components/Form';
-import Header from './components/Header';
+import HeaderDesktop from './components/HeaderDesktop';
+import HeaderMobile from './components/HeaderMobile';
 
 export default function Home() : JSX.Element{
   const [terms, setTerms] = useState<boolean>(false);
@@ -14,7 +15,8 @@ export default function Home() : JSX.Element{
 		  />
 	  </div>
 		<div className="md:flex-initial md:flex-col w-full xs:px-[25px] sm:px-[25px] md:pt-8 md:pr-8 md:pb-[59.5px] md:pl-[89px] max-w-5xl md:items-right text-sm lg:flex shrink bg-white-smoke md:bg-white">
-			<Header />
+			<HeaderDesktop />
+			<HeaderMobile />
 			<Form terms={terms} setTerms={setTerms}/>
 		</div>
 	</div>

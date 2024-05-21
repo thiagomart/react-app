@@ -152,7 +152,7 @@ export default function Form({terms, setTerms}: Props) : JSX.Element{
 				</div>
 			</div>
 			<Image
-				className="mt-[23px] md:hidden block w-full"
+				className="mt-[13px] md:hidden block w-full"
 				src="/signature-mobile.svg"
 				width={325}
 				height={32}
