@@ -35,3 +35,31 @@
 .hiddenCheckbox:checked + .customCheckmark {
     background: url('/checkbox.svg') no-repeat center;
 }
+
+.back-icon-mobile {
+    @media only screen and (max-width: 600px) {
+        display: block;
+        width: 33px;
+        height: 33px;
+        align-content: center;
+        padding-left: 9px;
+    }
+}
+
+h1 {
+    @media only screen and (max-width: 600px) {
+        font-size: 19px;
+    }
+}
+
+h2 {
+    @media only screen and (max-width: 600px) {
+        font-size: 14px;
+    }
+}
+.header-mobile {
+    @media only screen and (max-width: 600px) {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+}
