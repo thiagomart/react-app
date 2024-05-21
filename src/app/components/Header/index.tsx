@@ -5,9 +5,10 @@ import Image from 'next/image';
 export default function Header(): JSX.Element {
     return (
         <div>
-            <div className='flex justify-between'>
-                <a className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0" href="https://verifymyage.com/" target="_blank" rel="noopener noreferrer">
-                    <Image src="/logo.svg" alt="VerifyMyAge Logo" width={135.1} height={25.5}
+            <div className='flex md:justify-between xs:justify-end'>
+                <a className="flex place-items-center gap-2 p-8 lg:p-0 visible " 
+                href="https://verifymyage.com/" target="_blank" rel="noopener noreferrer">
+                      <Image src="/logo.svg" alt="VerifyMyAge Logo" width={135.1} height={25.5}
                     />
                 </a>
                 <Image src="/step.svg" alt="Step Icon" width={50} height={50} />

@@ -38,7 +38,7 @@ export default function Form({terms, setTerms}: Props) : JSX.Element{
 	return (
 	<div>
 		<form onSubmit={handleSubmit(onSubmit)}>
-			<div className="mt-7 md:w-1/2 md:pt-[59.5px]">
+			<div className="md:w-1/2 md:pt-[59.5px] xs:pt-7 ">
 				 <div className="mb-6">
 					<div className="bg-white-smoke md:bg-white absolute ml-4 -mt-3 px-1.5">
 						<label htmlFor='Full Name' 
@@ -122,7 +122,7 @@ export default function Form({terms, setTerms}: Props) : JSX.Element{
 						<input 
 							placeholder='Please type in...' 
 							{...register('password')} 
-							type='text' 
+							type='password' 
 							name='password' 
 							id='password' 
 							className={`${
@@ -148,7 +148,7 @@ export default function Form({terms, setTerms}: Props) : JSX.Element{
 					</label>
 				</div>
 				<div className="ml-4 pb-1 text-xs">
-					<label> Tick this box to confirm you've read and agreed to our Terms and Privacy Policy.</label>
+					<label> Tick this box to confirm you've read and agreed to our <u>Terms</u> and <u>Privacy Policy</u>.</label>
 				</div>
 			</div>
 			<Image
@@ -158,6 +158,7 @@ export default function Form({terms, setTerms}: Props) : JSX.Element{
 				height={32}
 				alt="logo"
 			/>
+			
 			<Footer terms={terms}/>
 		</form>
 	</div>
