@@ -11,6 +11,8 @@
 - [TypeScript](https://www.typescriptlang.org/)
 - [React Hook Form](https://react-hook-form.com/get-started)
 - [Yup](https://www.npmjs.com/package/yup)
+- [Jest](https://jestjs.io/pt-BR/)
+
 <br />
 <br />
 

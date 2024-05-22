@@ -18,12 +18,12 @@ export default function HeaderDesktop(): JSX.Element {
             </div>
             <div className="md:mt-[20.5px]">
                 <h1>
-                Join VerifyMyAge
+                    Join VerifyMyAge
                 </h1>
             </div>
             <div className="md:pt-5 sm:pt-[19px]">
                 <h2>
-                Let's start by setting up your login details
+                    Let's start by setting up your login details
                 </h2>
             </div>
         </div>

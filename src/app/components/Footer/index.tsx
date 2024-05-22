@@ -12,6 +12,7 @@ export function Footer({terms}: Props): JSX.Element {
             <hr className="border-foggy-grey mb-3 mt-1.5 md:hidden z-50" />
                 <div className='sm:w-auto z-40'>
                     <button 
+                        data-testid="save"
                         className="border-0 md:w-[119px] md:h-[70px] sm:h-[25px] sm:mb-0 sm:mr-4 w-full sm:w-auto text-[9px] flex 
                         items-center justify-center bg-light-yellow font-normal rounded-full 
                         px-4 py-3.5 text-dark-grey disabled:opacity-55 z-30" 
@@ -25,7 +26,7 @@ export function Footer({terms}: Props): JSX.Element {
                 </div>
                 <div className="md:pl-5 w-full sm:w-auto md:pt-0 xs:pt-2 z-20">
                     <a href="https://verify.verifymyage.co.uk/ebay/signup" target="_blank" rel="noopener noreferrer" className=''>
-                        <button className="border-2 border-black bg-white-smoke md:bg-white block rounded-full md:h-[70px] sm:h-[25px] px-4 py-3.5 text-dark-grey shadow-sm ring-0 focus:ring-0 hover:ring-0 outline-none placeholder:text-gray-400 sm:text-sm sm:leading-6 w-full sm:w-auto z-10">
+                        <button data-testid="goToPage" className="border-2 border-black bg-white-smoke md:bg-white block rounded-full md:h-[70px] sm:h-[25px] px-4 py-3.5 text-dark-grey shadow-sm ring-0 focus:ring-0 hover:ring-0 outline-none placeholder:text-gray-400 sm:text-sm sm:leading-6 w-full sm:w-auto z-10">
                             Got a VerifyMyAge account? Sign in
                         </button>
                     </a> 
