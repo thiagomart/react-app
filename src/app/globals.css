@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --dark-grey: #121212;
+    --white: #FFFFFF;
+    --white-smoke: #F8F8F8;
+    --grey: #EDEDF1;
+    --foggy-grey: #ACA99F;
+    --sonic-silver: #777777;
+    --warning: #D24340;
+    --light-yellow: #FBC81D; 
+  }
+}
+
+@font-face {
+  font-family: 'Codec Pro';
+  font-style: normal;
+  src: url(/fonts/codec_pro/Codec-Pro-Variable.ttf) format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: rgb(var(--dark-grey));
+  background: rgb(var(--dark-grey));
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden;
+}
+
+body, input, textarea, button {
+  font-family: 'Codec Pro', 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 1rem;
+}
+
+h1 {
+  font-family: 'Codec Pro', sans-serif;
+  font-size: 2.25rem;
+  font-weight: 300;
+  line-height: 2.875rem;
+  text-align: left;
+}
