@@ -23,7 +23,7 @@ export default function HeaderDesktop(): JSX.Element {
             </div>
             <div className="md:pt-5 sm:pt-[19px]">
                 <h2>
-                    Let's start by setting up your login details
+                    Let&lsquo;s start by setting up your login details
                 </h2>
             </div>
         </div>

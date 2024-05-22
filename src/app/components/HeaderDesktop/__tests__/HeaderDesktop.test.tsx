@@ -12,7 +12,7 @@ describe('[HeaderDesktop] When render thew Component =>', () => {
 		const { getByText, getByAltText } = render(<HeaderDesktop />)
 		
         expect(getByText('Join VerifyMyAge')).toBeInTheDocument()
-        expect(getByText("Let's start by setting up your login details")).toBeInTheDocument()
+        expect(getByText("Let‘s start by setting up your login details")).toBeInTheDocument()
 		expect(getByAltText('VerifyMyAge Logo')).toBeInTheDocument();
 		expect(getByAltText('back page')).toBeInTheDocument();
 		expect(getByAltText('Step Icon')).toBeInTheDocument();

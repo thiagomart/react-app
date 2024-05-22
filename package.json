@@ -5,10 +5,11 @@
   "author": "Thiago Martins",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run testBeforeBuild && next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "jest --watch"
+    "testBeforeBuild": "jest",
+    "test": "jest --watchAll"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.4.0",

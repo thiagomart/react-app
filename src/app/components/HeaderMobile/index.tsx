@@ -18,7 +18,7 @@ export default function HeaderMobile(): JSX.Element {
             </div>
             <div className="pl-[41px]">
                 <h2>
-                    Let's start by setting up 
+                    Let&lsquo;s start by setting up 
                 </h2>
                 <h2>your login details</h2>
             </div>
