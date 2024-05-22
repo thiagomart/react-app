@@ -10,9 +10,9 @@ jest.mock('next/image', () => {
 describe('[HeaderMobile] When render thew Component =>', () => {
 	it('render the component with all texts and Images', () => {
 		const { getByText, getByAltText} = render(<HeaderMobile />)
-		
-        expect(getByText("Let‘s start by setting up")).toBeInTheDocument()
-        expect(getByText("your login details")).toBeInTheDocument()
+
+    expect(getByText("Let‘s start by setting up")).toBeInTheDocument()
+    expect(getByText("your login details")).toBeInTheDocument()
 		expect(getByAltText('Step Icon')).toBeInTheDocument();
 		expect(getByAltText("back page")).toBeInTheDocument();
 	})
