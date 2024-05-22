@@ -30,7 +30,7 @@ export default function Success(): JSX.Element {
                 Congrats
               </h1>
               <p className="text-lg">
-                You'll be automatically verified for all future orders.
+                You&lsquo;ll be automatically verified for all future orders.
               </p>  
               <p className="text-lg">
                 Your orders will be dispatched without delay.
@@ -56,13 +56,13 @@ export default function Success(): JSX.Element {
                 </div>
                 <div className="relative md:left-[26.92px]">
                   <h1 className="text-2xl/[24px] font-light md:text-left xs:text-center">
-                    You've been successfully verified!
+                    You&lsquo;ve been successfully verified!
                   </h1>
                 </div>
               </div>
               <div className="-mt-5 relative md:hidden pt-14 pb-10 px-5 bg-white rounded-b-2xl drop-shadow z-0">
                 <p className="text-sm/[16px] font-extralight text-center">
-                  You'll be automatically verified for all future orders.
+                  You&lsquo;ll be automatically verified for all future orders.
                   Your orders will be dispatched without delay.
                 </p>
               </div>

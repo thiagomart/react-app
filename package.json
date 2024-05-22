@@ -8,7 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "jest --watch"
+    "testBeforeBuild": "jest",
+    "test": "jest --watchAll"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.4.0",

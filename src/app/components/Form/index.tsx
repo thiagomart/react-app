@@ -148,7 +148,7 @@ export default function Form({terms, setTerms}: Props) : JSX.Element{
 					</label>
 				</div>
 				<div className="ml-4 pb-1 text-xs">
-					<label> Tick this box to confirm you've read and agreed to our <u>Terms</u> and <u>Privacy Policy</u>.</label>
+					<label> Tick this box to confirm you`&lsquo;ve read and agreed to our <u>Terms</u> and <u>Privacy Policy</u>.</label>
 				</div>
 			</div>
 			<Image

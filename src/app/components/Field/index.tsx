@@ -8,8 +8,7 @@ interface propsField {
   type: string
 }
 
-
-export const Field = React.forwardRef(({title, required, messageError, type}: propsField, ref) => {
+export default function Field({title, required, messageError, type}: propsField): JSX.Element {
 	return (
 	  <div className="mb-6">
 		<div className="bg-white-smoke md:bg-white absolute ml-4 -mt-3 px-1.5">
@@ -20,4 +19,4 @@ export const Field = React.forwardRef(({title, required, messageError, type}: pr
 		</div>
 	  </div>
 	);
-});
+};
