@@ -1,4 +1,4 @@
-# Code Challenge 
+# ReactJS + NextJS 
 ## Getting Started
 - <p> Example of mocked onboarding process </p>
 <br />
